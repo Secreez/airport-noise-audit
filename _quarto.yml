@@ -22,7 +22,7 @@ format:
 bibliography: refs.bib
 
 manuscript:
-  article: index.qmd
+  article: report.qmd
   notebooks:
-    - notebook: index.qmd
+    - notebook: report.qmd
       title: Article Notebook
