@@ -1,28 +1,26 @@
 project:
   type: manuscript
   output-dir: _manuscript
+  execute-dir: project
 
-execute-dir: project
+manuscript:
+  article: report.qmd
+  code-links: repo
+
 execute:
-  cache: true
-  freeze: auto
   echo: false
   warning: false
   message: false
 
+bibliography: refs.bib
+csl: apa.csl
+
 format:
   html:
-    notebook-links: false
     toc: true
     toc-depth: 3
     theme: cosmo
-    comments:
-      hypothesis: true
-
-bibliography: refs.bib
-
-manuscript:
-  article: report.qmd
-  notebooks:
-    - notebook: report.qmd
-      title: Article Notebook
+    notebook-links: false
+  pdf:
+    toc: false
+    number-sections: true

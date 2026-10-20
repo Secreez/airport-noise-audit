@@ -1,19 +1,21 @@
-# History files
+# R
 .Rhistory
-
-# Session Data files
 .RData
 .RDataTmp
-
-# User-specific files
 .Ruserdata
-
-# Output files from R CMD check
+.Rproj.user/
 /*.Rcheck/
 
-# RStudio files
-.Rproj.user/
+# Quarto
+/.quarto/
+_manuscript/
+*_files/
+*_cache/
 
-# data (as license still needs to be checked)
-data/raw
-data/processed
+# Data (not redistributed, see DATA_SOURCES.md)
+data/raw/
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db

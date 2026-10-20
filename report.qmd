@@ -1,0 +1,10 @@
+
+
+
+## Session info {.appendix}
+
+```{r}
+#| label: session-info
+#| echo: true
+sessionInfo()
+```
